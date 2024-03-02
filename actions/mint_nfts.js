@@ -5,14 +5,15 @@ require("../flow/config.js");
 async function mintNFTs(recipient) {
   const names = ["Education", "Building", "Governance"];
   const descriptions = [
-    "This is the logo of the Education Guild",
-    "This is the logo of the Building Guild",
-    "This is the logo of the Governance Guild"
+    "HomeWork",
+    "HomeWork",
+    "HomeWork"
   ];
   const thumbnails = [
     "QmYVKNWdm2961QtHz721tdA8dvBT116eT2DtATsX53Kt28",
-    "QmPkJbnJSt3ZkHuGAnHyHCAhWVrneRrK6VHMjgu5oPGnoq",
-    "QmcpmzEDmZtP37csyNaYaxzhoMQmmUrQsihE3x2XGKsg1Z"
+    "bafybeiejz25qjg7pa3heoiewibhddw2jpqvmxmsnla7fpe5piysfft3o6a/script.png",
+    "bafybeidwe4udawpjicckyr2zinrbi7pkydt6z6etysdx6cclgyy4fviv2q/script1.webp",
+    
   ];
 
   try {
